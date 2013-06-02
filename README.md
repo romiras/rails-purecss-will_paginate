@@ -38,3 +38,7 @@ Based on [bootstrap-will_paginate](https://github.com/yrgoldteeth/bootstrap-will
 
 [wp]: http://github.com/mislav/will_paginate
 [pc]: http://purecss.io
+
+## Changelog 
+- 0.0.2 Fixed dependencies
+- 0.0.1 First version
