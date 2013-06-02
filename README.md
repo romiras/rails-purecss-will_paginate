@@ -1,6 +1,9 @@
 # Purecss::WillPaginate
 
-TODO: Write a gem description
+Rails Engine that extends [will_paginate][wp] stylings to match the pagination styling conventions 
+in [Pure CSS][pc] toolkit.
+
+Check the gem [purecss](https://github.com/mseri/rails-purecss) to include Pure in the Rails Asset Pipeline.
 
 ## Installation
 
@@ -16,9 +19,14 @@ Or install it yourself as:
 
     $ gem install purecss-will_paginate
 
-## Usage
+### Usage
 
-TODO: Write usage instructions here
+Just like you would in the regular [will_paginate][wp].  If you've got a need to use the default will_paginate stylings,
+pass an option like so:
+
+    <%= will_paginate(@things, :renderer => WillPaginate::ActionView::LinkRenderer) %>
+
+Based on [bootstrap-will_paginate](https://github.com/yrgoldteeth/bootstrap-will_paginate).
 
 ## Contributing
 
@@ -27,3 +35,6 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+[wp]: http://github.com/mislav/will_paginate
+[pc]: http://purecss.io
