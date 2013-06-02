@@ -28,7 +28,7 @@ module WillPaginate
       end
 
       def gap
-        tag :li, link('&hellip;'.html_safe, '#', :class => 'pure-button pure-button-custom-disabled')
+        tag :li, link('&hellip;'.html_safe, '#', :class => 'pure-button pure-button-disabled')
       end
 
       def previous_or_next_page(page, text, classname)
@@ -37,7 +37,7 @@ module WillPaginate
         text = text.include?('Next') ? '&#187;' : text
 
         tag :li, link(text, page || '#', 
-      :class => [('pure-button'), (classname[0..3] if  @options[:page_links]), (classname if @options[:page_links]), ('pure-button-custom-disabled' unless page)].join(' ') )
+      :class => [('pure-button'), (classname[0..3] if  @options[:page_links]), (classname if @options[:page_links]), ('pure-button-disabled' unless page)].join(' ') )
       end
     end
   end
