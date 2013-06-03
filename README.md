@@ -43,5 +43,6 @@ Based on [bootstrap-will_paginate](https://github.com/yrgoldteeth/bootstrap-will
 [pc]: http://purecss.io
 
 ## Changelog 
+- 0.0.3 Travis support, Rakefile corrected
 - 0.0.2 Fixed dependencies
 - 0.0.1 First version
