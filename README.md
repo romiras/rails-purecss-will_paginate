@@ -5,6 +5,9 @@ in [Pure CSS][pc] toolkit.
 
 Check the gem [purecss](https://github.com/mseri/rails-purecss) to include Pure in the Rails Asset Pipeline.
 
+[![Build Status](https://travis-ci.org/mseri/rails-purecss-will_paginate.png?branch=master)](https://travis-ci.org/mseri/rails-purecss-will_paginate.png?branch=master)
+
+
 ## Installation
 
 Add this line to your application's Gemfile:
