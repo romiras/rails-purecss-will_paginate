@@ -11,6 +11,7 @@ Gem::Specification.new do |spec|
   spec.description   = %q{Format will_paginate html to match Pure CSS styling.}
   spec.summary       = %q{Hooks into will_paginate to format the html to match Pure CSS (purecss.io) styling.}
   spec.homepage      = "https://github.com/mseri/rails-purecss-will_paginate"
+  spec.license       = "MIT"
   
   spec.files         = Dir['{lib,config}/**/*']+['README.md', ]
   spec.require_paths = ["lib"]

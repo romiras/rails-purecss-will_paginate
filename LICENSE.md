@@ -1,4 +1,7 @@
-Copyright (c) 2013 mseri
+Software License Agreement
+========================================
+
+Copyright (c) 2013 Marcello Seri
 
 MIT License
 
