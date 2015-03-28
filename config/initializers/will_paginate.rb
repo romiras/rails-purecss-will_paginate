@@ -24,7 +24,7 @@ module WillPaginate
       end
 
       def page_number(page)
-        tag :li, link(page, page, :rel => rel_value(page), :class => (page == current_page ? 'pure-button pure-button-active' : 'pure-button' ))
+        tag :li, link(page, page, :rel => rel_value(page), :class => (page == current_page ? 'pure-button pure-button-selected pure-button-active' : 'pure-button' ))
       end
 
       def gap
